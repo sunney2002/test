@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+</head>
+<body> 
+	<div class="container first">
+		<div>
+			<h2>Что готовит Спанч Боб?</h2>
+		</div>
+		<div class="otvet1 border py-3">Краб фри</div>
+		<div class="otvet2 border py-3">Хот-краб</div>	
+		<div class="otvet3 border py-3">Крабсбургер</div>
+	</div>
+	<div class="container second">
+		<div>
+			<h2>Как зовут брата Моники в сериале "Друзья"?</h2>
+		</div>
+		<div class="otvet4 border py-3">Чендлер</div>
+		<div class="otvet5 border py-3">Росс</div>
+		<div class="otvet6 border py-3">Джо</div>
+	</div>
+	<div class="container third">
+		<div>
+			<h2>Сколько членов в группе "Imagine Dragons"?</h2>
+		</div>
+		<div class="otvet7 border py-3">4</div>
+		<div class="otvet8 border py-3">5</div>
+		<div class="otvet9 border py-3">3</div>
+	</div>
+	<div class="container forth">
+		<div>
+			<h2>Переведите из десятичной в двоичную число 97</h2>
+		</div>
+		<div class="otvet10 border py-3">1000001</div>
+		<div class="otvet11 border py-3">1100001</div>
+		<div class="otvet12 border py-3">1010001</div>
+	</div>
+	<div class="container fifth">
+		<div>
+			<h2>Какая актриса изображена?</h2>
+			<img src="margot.jpg" class="w-50">
+		</div>
+		<div class="otvet13 border py-3">Марго Робби</div>
+		<div class="otvet14 border py-3">Натали Портман</div>
+		<div class="otvet15 border py-3">Кира Найтли</div>
+	</div>
+	<div class="container sixth">
+		<div>
+			<h2>Саундтрек из какого мультика?</h2>
+			<audio controls> 
+             <source src="moana.mp3"> 
+            </audio>
+		</div>
+		<div class="otvet16 border py-3">Холодное сердце</div>
+		<div class="otvet17 border py-3">Лило и Стич</div>
+		<div class="otvet18 border py-3">Моана</div>
+	</div>
+	<div class="container seventh">
+		<div>
+			<h2>Из какого сериала этот отрывок?</h2>
+			<video controls>
+             <source src="friends.mp4">
+            </video>
+		</div>
+		<div class="otvet19 border py-3">Теория большого взрыва</div>
+		<div class="otvet20 border py-3">Друзья</div>
+		<div class="otvet21 border py-3">счастливы вместе</div>
+	</div>
+
+	<script type="text/javascript">
+		document.querySelector(".second").style.display = "none";
+		document.querySelector(".third").style.display = "none";
+		document.querySelector(".forth").style.display = "none";
+		document.querySelector(".fifth").style.display = "none";
+		document.querySelector(".sixth").style.display = "none";
+		document.querySelector(".seventh").style.display = "none";
+		document.querySelector(".otvet1").onclick = function(){
+           alert('МИМО!!!')
+		};
+		document.querySelector(".otvet2").onclick = function(){
+           alert('НЕПРАВИЛЬНО!!!')
+		};
+		document.querySelector(".otvet3").onclick = function(){
+           alert('МОЛОДЕЦ!!!');
+           document.querySelector(".first").style.display = "none";
+           document.querySelector(".second").style.display = "block";
+           document.querySelector(".otvet4").onclick = function(){
+           alert('МИМО!!!')
+		   };
+		   document.querySelector(".otvet6").onclick = function(){
+           alert('НЕПРАВИЛЬНО!!!')
+		   };
+		   document.querySelector(".otvet5").onclick = function(){
+           alert('МОЛОДЕЦ!!!');
+           document.querySelector(".first").style.display = "none";
+           document.querySelector(".second").style.display = "none";
+		   document.querySelector(".forth").style.display = "none";
+		   document.querySelector(".fifth").style.display = "none";
+		   document.querySelector(".sixth").style.display = "none";
+		   document.querySelector(".seventh").style.display = "none";
+           document.querySelector(".third").style.display = "block";
+           document.querySelector(".otvet9").onclick = function(){
+           alert('МИМО!!!')
+		   };
+		   document.querySelector(".otvet8").onclick = function(){
+           alert('НЕПРАВИЛЬНО!!!')
+		   };
+		   document.querySelector(".otvet7").onclick = function(){
+           alert('МОЛОДЕЦ!!!');
+           document.querySelector(".first").style.display = "none";
+           document.querySelector(".second").style.display = "none";
+		   document.querySelector(".third").style.display = "none";
+		   document.querySelector(".fifth").style.display = "none";
+		   document.querySelector(".sixth").style.display = "none";
+		   document.querySelector(".seventh").style.display = "none";
+           document.querySelector(".forth").style.display = "block";
+           document.querySelector(".otvet10").onclick = function(){
+           alert('МИМО!!!')
+		   };
+		   document.querySelector(".otvet12").onclick = function(){
+           alert('НЕПРАВИЛЬНО!!!')
+		   };
+		   document.querySelector(".otvet11").onclick = function(){
+           alert('МОЛОДЕЦ!!!');
+           document.querySelector(".first").style.display = "none";
+           document.querySelector(".second").style.display = "none";
+		   document.querySelector(".third").style.display = "none";
+		   document.querySelector(".forth").style.display = "none";
+		   document.querySelector(".sixth").style.display = "none";
+		   document.querySelector(".seventh").style.display = "none";
+           document.querySelector(".fifth").style.display = "block";
+           document.querySelector(".otvet14").onclick = function(){
+           alert('МИМО!!!')
+		   };
+		   document.querySelector(".otvet15").onclick = function(){
+           alert('НЕПРАВИЛЬНО!!!')
+		   };
+		   document.querySelector(".otvet13").onclick = function(){
+           alert('МОЛОДЕЦ!!!');
+           document.querySelector(".first").style.display = "none";
+           document.querySelector(".second").style.display = "none";
+		   document.querySelector(".third").style.display = "none";
+		   document.querySelector(".forth").style.display = "none";
+		   document.querySelector(".fifth").style.display = "none";
+		   document.querySelector(".seventh").style.display = "none";
+           document.querySelector(".sixth").style.display = "block";
+           document.querySelector(".otvet16").onclick = function(){
+           alert('МИМО!!!')
+		   };
+		   document.querySelector(".otvet17").onclick = function(){
+           alert('НЕПРАВИЛЬНО!!!')
+		   };
+		   document.querySelector(".otvet18").onclick = function(){
+           alert('МОЛОДЕЦ!!!');
+           document.querySelector(".first").style.display = "none";
+           document.querySelector(".second").style.display = "none";
+		   document.querySelector(".third").style.display = "none";
+		   document.querySelector(".forth").style.display = "none";
+		   document.querySelector(".fifth").style.display = "none";
+		   document.querySelector(".sixth").style.display = "none";
+           document.querySelector(".seventh").style.display = "block";
+           document.querySelector(".otvet19").onclick = function(){
+           alert('МИМО!!!')
+		   };
+		   document.querySelector(".otvet21").onclick = function(){
+           alert('НЕПРАВИЛЬНО!!!')
+		   };
+		   document.querySelector(".otvet20").onclick = function(){
+           alert('МОЛОДЕЦ!!!');
+            }
+            }
+            }
+            }
+           }
+          } 
+		};
+	</script>
+</body>
+</html>
